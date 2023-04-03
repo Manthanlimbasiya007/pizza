@@ -52,7 +52,7 @@ class _HomescreenState extends State<Homescreen> {
                           child: logoBoxUI(homeprovider!.logoImgList[index],homeprovider!.nameList[index])),
                       shrinkWrap: true,
                       physics: BouncingScrollPhysics(),
-                      itemCount: 6,
+                      itemCount: 4,
                     )))
           ],
         ),
